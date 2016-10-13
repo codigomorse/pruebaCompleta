@@ -1,0 +1,51 @@
+".container": {
+	backgroundColor: "white",
+	layout: "vertical"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top: 30
+}
+
+//pelis
+"#scrollView":{
+	layout: 'vertical',
+	width: Titanium.UI.FILL,
+	heigt: Titanium.UI.FILL
+}
+
+"#imagenW":{
+	left: 15,
+	width: '25%',
+}
+
+
+"#imagenX":{
+	left: 15,
+	width: '25%'
+}
+
+"#label1":{
+	color: 'red'
+}
+".descripcion":{
+	left: 15,
+	right: 15,
+	bottom: 5,
+	font: {
+		fontSize: 10
+	}
+}
+"#Wolverine":{
+	layout: 'horizontal',
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
+"#Xmen":{
+	layout: 'horizontal',
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE
+}
