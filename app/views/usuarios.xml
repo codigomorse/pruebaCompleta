@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" >
+		<ListView id="elementsList" defaultItemTemplate="template">
+			<Templates>
+				<ItemTemplate name="template">
+					<ImageView bindId="avatar" id="avatar"/>
+					<Label bindId="nombre" id="nombre"/>
+				</ItemTemplate>
+			</Templates>
+			<ListSection name="elements"></ListSection>
+		</ListView>
+		<Button id="btnCerrarVentana">Cerrar ventana</Button>
+	</Window>
+</Alloy>
+

@@ -1,0 +1,18 @@
+"#nombre":{
+	left:80,
+	font: {
+		fontSize:18
+	}
+}
+"#avatar":{
+	left:10,
+}
+"#elementsList[platform=ios]":{
+	top:50, 
+}
+"#btnCerrarVentana":{
+	top:20,
+}
+"#container":{
+	layout:"vertical",
+}
